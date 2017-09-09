@@ -1,17 +1,3 @@
-<!--
-
-		
-	  
-			
-		</div>
-	</div>
-  	
-    <link rel="stylesheet" type="text/css" href="../css/theme.css">
-</body>
-</html>-->
-
-
-
 <!DOCTYPE html>
 <html >
 <head>
@@ -30,12 +16,14 @@
             <i class="fa fa-user"></i>
             <p>Username: {{user.login}}</p>
 	  	    <p>Follower Count: {{user.followers}}</p>
+<!--
             <ul>
 				<li ng-repeat="follower in followers track by $index">
 					<image src={{follower.avatar_url}} height=200 width=200/> {{ follower.login }}
 				</li>
 			</ul>
-            <button ng-click="getMoreFollowers()">Load more followers</button>	
+-->
+<!--            <button ng-click="getMoreFollowers()">Load more followers</button>	-->
             <button type="submit">
                 <i class="spinner"></i>
                 <span class="state">Show Followers</span>
